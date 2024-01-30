@@ -8,7 +8,6 @@ document.getElementById('nextButton').addEventListener('click', function() {
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('question').style.display = 'none';
     document.getElementById('response').style.display = 'block';
-    document.getElementById('specialPhoto').style.display = 'block'; // Display the photo
 });
 
 const noButton = document.getElementById('noButton');
