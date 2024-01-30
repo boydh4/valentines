@@ -4,7 +4,7 @@ body {
     text-align: center;
     font-family: 'Lobster', cursive;
     background-color: pink;
-    background-image: url('https://example.com/heart-background.png'); /* Replace with your heart background URL */
+    background-image: url('https://zeevector.com/wp-content/uploads/pink-heart-Background.png'); /* Replace with your heart background URL */
     background-repeat: repeat;
 }
 
@@ -45,8 +45,28 @@ button:hover {
 }
 
 #noButton:hover {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
 }
+
+#yesButton:hover {
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s;
+}
+
+
 
 #response h1, #wrong-answer h1 {
     color: darkred;
