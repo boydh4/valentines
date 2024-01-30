@@ -7,8 +7,8 @@ document.getElementById('nextButton').addEventListener('click', function() {
 
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('question').style.display = 'none';
-    document.getElementById('response').innerHTML = '<h1>Ok then my valentine, I\'ll see your beautiful face across the dinner table February 14th at 7:00 pm. I love you.</h1>';
     document.getElementById('response').style.display = 'block';
+    document.getElementById('specialPhoto').style.display = 'block'; // Display the photo
 });
 
 const noButton = document.getElementById('noButton');
@@ -30,4 +30,6 @@ noButton.addEventListener('click', function() {
 
 document.getElementById('goBackButton').addEventListener('click', function() {
     document.getElementById('wrong-answer').style.display = 'none';
-    document.getElementById('question').style
+    document.getElementById('question').style.display = 'block';
+    noButtonMoveCount = 0; // Reset the noButtonMoveCount
+});
