@@ -1,3 +1,8 @@
+document.getElementById('nextButton').addEventListener('click', function() {
+    document.getElementById('message').style.display = 'none';
+    document.getElementById('question').style.display = 'block';
+});
+
 document.getElementById('yesButton').addEventListener('click', function() {
     document.getElementById('question').style.display = 'none';
     document.getElementById('response').style.display = 'block';
